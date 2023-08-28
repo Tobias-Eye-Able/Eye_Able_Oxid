@@ -1,0 +1,4 @@
+table_storage:
+  table_name: oxmigrations_EyeAble_EyeAbleAssist
+migrations_paths:
+  'OxidEsales\EyeAble\Migrations': data

@@ -1,0 +1,8 @@
+parameters:
+  app.basket_log_file_path: '/var/www/source/log/basket.log'
+
+services:
+
+  _defaults:
+    public: false
+    autowire: true
