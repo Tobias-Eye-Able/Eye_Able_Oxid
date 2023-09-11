@@ -2,12 +2,12 @@ How to Use:
 1. Clone Repo into the modules directory of your oxid shop. The keep the provided folder structure:
  ```
    cd <shopRoot>
-  git clone https://github.com/Tobias-Eye-Able/Eye_Able_Oxid_7.0.0.git source/modules/EyeAble/EyeAbleAssist
+  git clone https://github.com/Tobias-Eye-Able/Eye_Able_Oxid_7.0.0.git source/dev-packages/EyeAble/EyeAbleAssist
 ```
 2. Install Module from local path:
      ```
    cd <shopRoot>
-     composer config repositories.oxid-esales/eyeable path source/modules/EyeAble/EyeAbleAssist
+     composer config repositories.oxid-esales/eyeable path source/dev-packages/EyeAble/EyeAbleAssist
      composer require oxid-esales/eyeable:*
      ```
 **Important** <br> 
